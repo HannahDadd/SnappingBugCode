@@ -14,6 +14,7 @@
 		79BB788B275A3B2C0081EF59 /* SnappingBugCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB788A275A3B2C0081EF59 /* SnappingBugCodeTests.swift */; };
 		79BB7895275A3B2D0081EF59 /* SnappingBugCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB7894275A3B2D0081EF59 /* SnappingBugCodeUITests.swift */; };
 		79BB7897275A3B2D0081EF59 /* SnappingBugCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB7896275A3B2D0081EF59 /* SnappingBugCodeUITestsLaunchTests.swift */; };
+		79BB78A4275E4BA30081EF59 /* AmbientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB78A3275E4BA30081EF59 /* AmbientBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		79BB7890275A3B2C0081EF59 /* SnappingBugCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappingBugCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BB7894275A3B2D0081EF59 /* SnappingBugCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingBugCodeUITests.swift; sourceTree = "<group>"; };
 		79BB7896275A3B2D0081EF59 /* SnappingBugCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingBugCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79BB78A3275E4BA30081EF59 /* AmbientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				79BB7879275A3B1D0081EF59 /* SnappingBugCodeApp.swift */,
 				79BB787B275A3B1D0081EF59 /* ContentView.swift */,
+				79BB78A3275E4BA30081EF59 /* AmbientBackgroundView.swift */,
 				79BB787D275A3B2C0081EF59 /* Assets.xcassets */,
 				79BB787F275A3B2C0081EF59 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				79BB787C275A3B1D0081EF59 /* ContentView.swift in Sources */,
 				79BB787A275A3B1D0081EF59 /* SnappingBugCodeApp.swift in Sources */,
+				79BB78A4275E4BA30081EF59 /* AmbientBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

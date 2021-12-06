@@ -21,7 +21,7 @@ struct ContentView: View {
                 ForEach(colours, id: \.self) { colour in
                     VStack {
                         Spacer()
-                        Text("Top of the view").font(.largeTitle)
+                        Text("Top of the view").font(.largeTitle).foregroundColor(colour)
                         Spacer()
                         VStack(alignment: .leading, spacing: 0) {
                             VStack(alignment: .leading, spacing: 0) {
@@ -63,7 +63,7 @@ struct ContentView: View {
                                 }
                             }.accessibility(addTraits: .isHeader)
                         }
-                    }.background(colour)
+                    }.ambienceBackgroundImage()
                         .frame(width: geo.size.width, height: geo.size.height)
                 }
             }.offset(y: -CGFloat(currentIndex) * geo.size.height)
