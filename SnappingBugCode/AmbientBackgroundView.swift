@@ -22,7 +22,7 @@ private struct AmbienceImageBackgroundModifier: ViewModifier {
         content
             .background(AmbienceBackgroundImage(), alignment: .bottomLeading)
             .clipped()
-            .edgesIgnoringSafeArea(.all)
+//            .edgesIgnoringSafeArea(.all)
     }
 }
 
