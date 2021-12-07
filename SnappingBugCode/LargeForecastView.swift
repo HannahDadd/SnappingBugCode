@@ -13,9 +13,6 @@ struct LargeForecastView: View {
 
     var body: some View {
         VStack {
-            Spacer()
-            Text("Top of the view").font(.largeTitle).foregroundColor(colour)
-            Spacer()
             VStack(alignment: .leading, spacing: 0) {
                 VStack(alignment: .leading, spacing: 0) {
                     HStack {

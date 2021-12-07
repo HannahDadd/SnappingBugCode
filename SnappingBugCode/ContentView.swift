@@ -20,6 +20,9 @@ struct ContentView: View {
             VStack(spacing: 0) {
                 ForEach(colours, id: \.self) { colour in
                     VStack {
+                        Spacer()
+                        Text("Top of the view").font(.largeTitle).foregroundColor(colour)
+                        Spacer()
                         ScrollView(.horizontal) {
                             HStack {
                                 LargeForecastView(colour: colour, width: geo.size.width)
